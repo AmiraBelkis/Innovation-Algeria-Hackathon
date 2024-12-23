@@ -1,0 +1,25 @@
+.side-menu {
+    border-right: 1px solid #e8e8e8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.active-menu-item {
+    color: var(--primary-color) !important;
+    background-color: var(--bg-active-menu) !important;
+    font-weight: bold;
+    border-left: 3px solid var(--primary-color);
+}
+
+.nav-link {
+    color: var(--link-color);
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: var(--primary-color);
+}
+
+.nav-link img {
+    transition: filter 0.3s ease;
+}
